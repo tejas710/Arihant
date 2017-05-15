@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Tirthankar">Tirthankar</string>
+    <string name="Tirthankar_Information">Information</string>
+    <string name="Tirthankar_history">History</string>
+    <string name="Tirthankar_media">Media</string>
+    <string name="Tirthankar_gallary">Gallary</string>
+    <string name="info">Tirth</string>
+    <string name="info1">HIstory</string>
+    <string name="info2">Near by</string>
+    <string name="info3">How to reach</string>
+    <string name="info4">Information</string>
+    <string name="info5">Gallary</string>
+    <string name="app_name">Arihant</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tithankar">Tirthankar</string>
+    <string name="title_activity_tirth_details">Tirth_details</string>
+    <string name="title_activity_tirthankar_detail">Tirthankar_detail</string>
+    <string name="title_activity_get_all_festival">Jain Festival</string>
+    <string name="title_activity_festival_details">Festival_details</string>
+    <string name="title_activity_jainsongs">Jain Songs</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_searchresult_tirth">searchresult</string>
+    <string name="title_activity_pager_get_tirth_details"></string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_allpachakhan">Pachakhan</string>
+    <string name="title_activity_pager_tithankar_details"></string>
+    <string name="title_activity_search__tirthankar">Search Result</string>
+    <string name="title_activity_search_festival">Search Result</string>
+    <string name="title_activity_search">Search Result</string>
+    <string name="title_activity_audioplay">Song</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_audi2">audi2</string>
+    <string name="title_activity_play_list">PlayListActivity</string>
+    <string name="title_activity_audioplaypavhakhan">Play</string>
+    <string name="title_activity_get_all_magazins">Magazines</string>
+    <string name="title_activity_link_share">LinkShare</string>
+    <string name="title_activity_slpashpage">Arihant</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_tital_bar">TitalBar</string>
+    <string name="title_activity_pager_suntime">Sun Time</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+    <string name="title_activity_about_us">About us</string>
+    <string name="title_activity_contact_us">Contact us</string>
+    <string name="title_activity_audiostavntirthankar">audiostavntirthankar</string>
+
+</resources>

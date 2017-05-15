@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="CustomActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/CustomBar</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/CustomBar</item>
+
+    </style>
+
+    <style name="CustomBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_drawable</item>
+        <!-- Support library compatibility -->
+
+        <item name="background">@drawable/actionbar_drawable</item>
+
+
+    </style>
+
+</resources>

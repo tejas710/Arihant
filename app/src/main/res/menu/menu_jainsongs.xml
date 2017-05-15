@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.kbvora.arihant1.getallJainsongs">
+    <item android:id="@+id/sfes1tirthankar_menu_action_home" android:title="Home"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/sfes1tirthankar_menu_action_Tirthplace" android:title="Tirth"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/sfes1tirth_menu_action_Tirthankar" android:title="Tirthankar"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/sfes1tirth_menu_action_Jainfestival" android:title="Jain Festival"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/sfes1tirthankar_menu_action_Jainmagazine" android:title="Jain Magazine"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/sfes1tirth_menu_action_pachhakhanan" android:title="Pachakhan"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/sfes1tirthankar_menu_action_sun_time" android:title="Sun Time"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/sfes1tirthankar_menu_action_nearby" android:title="Near by Tirth"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_search4"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_action_search"
+        yourapp:showAsAction="always|collapseActionView"
+        yourapp:actionViewClass="android.support.v7.widget.SearchView" />
+</menu>

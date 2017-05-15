@@ -1,0 +1,168 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/texture"
+
+    ><TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="10.0dip"
+    android:paddingTop="10.0dip"
+    android:paddingRight="10.0dip"
+    android:paddingBottom="10.0dip"
+
+    android:id="@+id/homepage_menuLL1"
+    >
+
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10.0dip"
+        android:paddingTop="10.0dip"
+        android:paddingRight="10.0dip"
+        android:paddingBottom="10.0dip"
+        android:id="@+id/homepage_menuLL2">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_height="225dp"
+                android:layout_width="match_parent"
+                android:id="@+id/homepage_menu_tirthplacebtn"
+                android:text="JAIN TIRTH"
+                android:gravity="bottom|center"
+                android:textColor="#FFFFFF"
+                android:onClick="gotonext"
+                android:background="@drawable/tirth1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_weight="6" />
+            <Button
+                android:layout_height="225dp"
+                android:layout_width="match_parent"
+                android:id="@+id/homepage_menu_tirthankarbtn"
+                android:onClick="gotonext"
+                android:layout_weight="5"
+                android:text="TIRTHANKAR"
+                android:gravity="bottom|center"
+                android:textColor="#FFFFFF"
+
+                android:background="@drawable/tirthankar1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                /> </TableRow><TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_height="225dp"
+            android:layout_width="match_parent"
+            android:id="@+id/homepage_menu_jainsongsbtn"
+            android:layout_weight="6"
+            android:text="JAIN SONGS"
+            android:gravity="bottom|center"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/jainsongs1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="gotonext"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            /><Button
+        android:layout_height="225dp"
+        android:layout_width="match_parent"
+        android:id="@+id/homepage_menu_festivalbtn"
+        android:layout_weight="5"
+        android:onClick="gotonext"
+        android:text="JAIN FESTIVAL"
+        android:gravity="bottom|center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/festival1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        /> </TableRow><TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_height="225dp"
+            android:layout_width="match_parent"
+            android:layout_weight="6"
+            android:text="PACHAKHAN"
+            android:onClick="gotonext"
+            android:gravity="bottom|center"
+            android:textColor="#000000"
+            android:id="@+id/homepage_menu_pachhakhanbtn"
+            android:background="@drawable/pachhakhan1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:layout_height="225dp"
+            android:layout_width="match_parent"
+            android:layout_weight="5"
+            android:text="MAGAZINES"
+            android:onClick="gotonext"
+            android:gravity="bottom|center"
+            android:textColor="#000000"
+            android:id="@+id/homepage_menu_jainmagazinebtn"
+            android:background="@drawable/jainmagazines1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            /></TableRow><TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+        android:layout_height="225dp"
+        android:layout_width="match_parent"
+        android:id="@+id/homepage_menu_sunsetsunrisebtn"
+        android:layout_weight="6"
+        android:onClick="gotonext"
+        android:text="SUN TIMING"
+        android:gravity="bottom|center"
+        android:textColor="#FFFFFF"
+
+        android:background="@drawable/sun1"
+
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+        <Button
+            android:layout_height="225dp"
+            android:layout_width="match_parent"
+            android:layout_weight="5"
+            android:text="NEAREST TIRTH"
+            android:onClick="gotonext"
+            android:gravity="bottom|center"
+            android:textColor="#000000"
+            android:id="@+id/homepage_menu_map"
+            android:background="@drawable/mp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            />
+    </TableRow>
+    </TableLayout>
+
+
+
+</TableLayout>
+   </ScrollView>

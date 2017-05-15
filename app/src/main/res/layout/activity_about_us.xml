@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/texture"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Arihant will help them to know about any Tirth Places which are situated in all over India. They can easily get the contact no, Address as well as they can get information about that places and the facilities provided by that Tirth Place.
+"
+        android:id="@+id/lbl1_about6"
+            android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginTop="40dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="People belonging to Jain religion can also get information about their Tirthankars (God). They can also know about that Tirthankar in details.
+"
+            android:id="@+id/lbl1_about67"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="People who love to listens the Jain Stavan and Stuti, they can get large collection of that and also can listen it online as well as download it.
+"
+            android:id="@+id/lbl1_about65"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Arihant application will also give the audio recording of Pachakhan, and listen it online or can download it.
+"
+            android:id="@+id/lbl1_about63"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Arihant also give the well-mannered time table of Sunset and Sunrise Timing. "
+            android:id="@+id/lbl1_about62"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="People can find nearby Tirth Places through a map and also find the way of that places using navigator.
+"
+            android:id="@+id/lbl1_about61"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+</ScrollView>

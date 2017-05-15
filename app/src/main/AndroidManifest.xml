@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kbvora.arihant1" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lgo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Homepage_menu"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".getAllFestival"
+            android:label="@string/title_activity_get_all_festival"
+            android:parentActivityName=".Homepage_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Homepage_menu" />
+        </activity>
+        <activity
+            android:name=".Tirthankar"
+            android:label="@string/title_activity_tithankar"
+            android:parentActivityName=".Homepage_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Homepage_menu" />
+        </activity>
+        <activity
+            android:name=".getalltirthplace"
+            android:label="Tirth"
+            android:parentActivityName=".Homepage_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Homepage_menu" />
+        </activity>
+        <activity
+            android:name=".Tirthankar_detail"
+            android:label="@string/title_activity_tirthankar_detail"
+            android:parentActivityName=".Tirthankar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Tirthankar" />
+        </activity>
+        <activity
+            android:name=".festival_details"
+            android:label="@string/title_activity_festival_details"
+            android:parentActivityName=".getAllFestival" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.getAllFestival" />
+        </activity>
+        <activity
+            android:name=".getallJainsongs"
+            android:label="@string/title_activity_jainsongs"
+            android:parentActivityName=".Homepage_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Homepage_menu" />
+        </activity>
+        <activity
+            android:name=".searchresult_tirth"
+            android:label="@string/title_activity_searchresult_tirth"
+            android:parentActivityName=".getalltirthplace" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.getalltirthplace" />
+        </activity>
+        <activity
+            android:name=".pager_get_tirth_details"
+            android:label="@string/title_activity_pager_get_tirth_details"
+            android:parentActivityName=".getalltirthplace" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.getalltirthplace" />
+        </activity>
+        <activity
+            android:name=".allpachakhan"
+            android:label="@string/title_activity_allpachakhan"
+            android:parentActivityName=".Homepage_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Homepage_menu" />
+        </activity>
+        <activity
+            android:name=".pager_tithankar_details"
+            android:label="@string/title_activity_pager_tithankar_details"
+            android:parentActivityName=".Tirthankar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Tirthankar" />
+        </activity>
+        <activity
+            android:name=".search_Tirthankar"
+            android:label="@string/title_activity_search__tirthankar"
+            android:parentActivityName=".Tirthankar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Tirthankar" />
+        </activity>
+        <activity
+            android:name=".search_festival"
+            android:label="@string/title_activity_search_festival"
+            android:parentActivityName=".getAllFestival" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.getAllFestival" />
+        </activity>
+        <activity
+            android:name=".search_jain_songs"
+            android:label="@string/title_activity_search" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.getallJainsongs" />
+        </activity>
+        <activity
+            android:name=".audioplay"
+            android:label="@string/title_activity_audioplay"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".getallJainsongs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.getallJainsongs" />
+        </activity>
+        <activity
+            android:name=".Audioplaypavhakhan"
+            android:label="@string/title_activity_audioplaypavhakhan"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".allpachakhan" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.allpachakhan" />
+        </activity>
+        <activity
+            android:name=".get_all_magazins"
+            android:label="@string/title_activity_get_all_magazins"
+            android:parentActivityName=".Homepage_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Homepage_menu" />
+        </activity>
+        <activity
+            android:name=".slpashpage"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_slpashpage" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Homepage_menu" />
+        </activity>
+        <activity
+            android:name=".Pager_suntime"
+            android:label="@string/title_activity_pager_suntime"
+            android:parentActivityName=".Homepage_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Homepage_menu" />
+        </activity>
+        <activity
+            android:name=".about_us"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Homepage_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Homepage_menu" />
+        </activity>
+        <activity
+            android:name=".Contact_us"
+            android:label="@string/title_activity_contact_us"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Homepage_menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Homepage_menu" />
+        </activity>
+        <activity
+            android:name=".audiostavntirthankar"
+            android:label="@string/title_activity_audiostavntirthankar"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Tirthankar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kbvora.arihant1.Tirthankar" />
+        </activity>
+    </application>
+
+</manifest>

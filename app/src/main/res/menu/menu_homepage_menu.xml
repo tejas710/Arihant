@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Homepage_menu">
+
+    <item android:id="@+id/homepage_menu_action_Tirthplace" android:title="About us"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/homepage_menu_action_Tirthankar" android:title="Contact us"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/homepage_menu_action_pachhakhanan" android:title="Share via"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/homepage_menu_action_Jainsongs" android:title="Near by tirth"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/homepage_menu_action_Jainfestival" android:title="Suggestion"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+
+    <item android:id="@+id/homepage_menu_action_shere"
+        android:title="@string/action_search"
+        android:icon="@drawable/share"
+        yourapp:showAsAction="always|collapseActionView"
+         />
+</menu>

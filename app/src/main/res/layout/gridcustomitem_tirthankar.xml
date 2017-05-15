@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+   >
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:id="@+id/gridcustomitem_tirthankar_imageview"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:textColor="#0099FF"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="220dp"
+        android:layout_width="147dp"
+        android:layout_height="20dp"
+        android:text="New Text"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:id="@+id/gridcustomitem_tirthankar_textView"
+        />
+</FrameLayout>
